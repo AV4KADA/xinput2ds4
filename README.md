@@ -103,7 +103,6 @@ steady voltage.
 | D1–D2 | 2 | Schottky diode | BAT54 / 1N5817 | power rail isolation |
 | R5–R22 | 18 | Resistor (optional) | 100 Ω | digital line protection |
 
-Full BOM: [`hardware/bom.csv`](hardware/bom.csv) · Schematic: [`docs/hardware.md`](docs/hardware.md)
 
 ### Buttons: Pico W → GP2040-CE
 
@@ -208,9 +207,8 @@ matches the resolution of the target protocol, so there is nothing to gain from 
 ### Prerequisites
 
 - `arm-none-eabi-gcc`, `cmake` ≥ 3.13, `python3`
-- [pico-sdk](https://github.com/raspberrypi/pico-sdk) — version pinned in `.gitmodules`
-- [Bluepad32](https://github.com/ricardoquesada/bluepad32) — submodule under `third_party/`
-
+- [pico-sdk](https://github.com/raspberrypi/pico-sdk)
+- [Bluepad32](https://github.com/ricardoquesada/bluepad32)
 ### Build
 
 ```bash
