@@ -101,7 +101,6 @@ PS4 принимает по USB только аутентифицированн�
 | D1–D2 | 2 | Диод Шоттки | BAT54 / 1N5817 | развязка питания |
 | R5–R22 | 18 | Резистор (опц.) | 100 Ом | защита цифровых линий |
 
-Спецификация: [`hardware/bom.csv`](hardware/bom.csv) · Схема: [`docs/hardware.md`](docs/hardware.md)
 
 ### Кнопки: Pico W → GP2040-CE
 
@@ -206,8 +205,8 @@ V_ripple ≈ V·D·(1−D) / (f·R·C) = 3.3 · 0.25 / (488281 · 0.001) ≈ 1.7
 ### Что понадобится
 
 - `arm-none-eabi-gcc`, `cmake` ≥ 3.13, `python3`
-- [pico-sdk](https://github.com/raspberrypi/pico-sdk) — версия зафиксирована в `.gitmodules`
-- [Bluepad32](https://github.com/ricardoquesada/bluepad32) — submodule в `third_party/`
+- [pico-sdk](https://github.com/raspberrypi/pico-sdk)
+- [Bluepad32](https://github.com/ricardoquesada/bluepad32)
 
 ### Сборка
 
